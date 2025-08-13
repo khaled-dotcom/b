@@ -1,14 +1,7 @@
-import os
 import streamlit as st
 from groq import Groq
-from dotenv import load_dotenv
 
-load_dotenv()  # Loads .env file if present (for local testing)
-
-API_KEY = os.getenv("GROQ_API_KEY")
-if not API_KEY:
-    st.error("Please set the GROQ_API_KEY environment variable.")
-    st.stop()
+API_KEY = "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"
 
 client = Groq(api_key=API_KEY)
 
