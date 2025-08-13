@@ -5,7 +5,7 @@ API_KEY = "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"
 
 client = Groq(api_key=API_KEY)
 
-st.title("Groq Whisper Large V3 Audio Transcription")
+st.title(" khaled Transcription")
 
 uploaded_file = st.file_uploader("Upload an audio file (.m4a)", type=["m4a"])
 
